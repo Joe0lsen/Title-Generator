@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url('/images/parchment.jpg');
+    background-image: url('../images/parchment.jpg');
     background-color: Antiquewhite;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
