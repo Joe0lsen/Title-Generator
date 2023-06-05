@@ -10,6 +10,8 @@ These words are obtained from the **faker.js** *Words* module.
 
 I did this project because I had searched the web for a random title generator, but all I could find were name generators and sentence generators. I could never find what I was specifically looking for, so I scratched my own itch.
 
+[Webpage Preview](https://joe0lsen.github.io/Title-Generator/index.html)
+
 [Demo Video](https://youtu.be/_i1SOkF7aNI)
 
 ## Development Environment
