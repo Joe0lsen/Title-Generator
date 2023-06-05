@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+
+
+body {
+    background-image: url('/images/parchment.jpg');
+    background-color: Antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pageTitle {
+    margin-bottom: 50px;
+}
+
+#generatedTitle {
+    font-size: 1.5em;
+    font-family: 'Old Standard TT', cursive;
+}
+
+.wordBox {
+    margin:4px;
+}
+
+.wordBox label {
+    font-size:0.8em;
+}
+
+footer {
+    position:absolute;
+    bottom: 5px;
+    width:98%;   
+}
+
+#titleGeneration {
+    margin: 20px 0;
+}
+
+#storedTitlesContainer {
+    margin: 20px 0;
+}
+
+#storedTitlesHeader {
+    margin-top: 40px;
+}
+
+#storedTitles {
+    font-style: italic;
+    text-align: left;
+    padding: 0 10px;
+    margin: auto;
+    border: 1px solid black;
+    width: fit-content;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+#clearBtn {
+    margin: 10px 0;
+    background-color: rgba(255, 0, 0, 0.5);
+}

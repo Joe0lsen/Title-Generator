@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Generator</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="module" src="/scripts/script.js" defer></script>
+</head>
+<body>
+    <header><h1 id="pageTitle">Title Generator</h1></header>
+    <main>
+        <div id="titleGeneration">
+            <p id="generatedTitle">Interestingly Original Title</p>
+            <input id="generateBtn" type="button" value="Generate Title">
+        </div>
+        <div id="wordsContainer">
+            <div class="wordBox" id="adv">
+                <input type="text" name="advText" id="advText" placeholder="adverb">
+                <input type="checkbox" name="advCheck" id="advCheck">
+                <label for="advCheck">Hold</label>
+
+            </div>
+            <div class="wordBox" id="adj">
+                <input type="text" name="adjText" id="adjText" placeholder="adjective">
+                <input type="checkbox" name="adjCheck" id="adjCheck">
+                <label for="adjCheck">Hold</label>
+
+            </div>
+            <div class="wordBox" id="noun">
+                <input type="text" name="nounText" id="nounText" placeholder="noun">
+                <input type="checkbox" name="noun" id="nounCheck">
+                <label for="noun">Hold</label>
+            </div>
+        </div>
+        <div id="storedTitlesContainer">
+            <input id="storeBtn" type="button" value="Store This Title"> 
+            <h2 id="storedTitlesHeader">Stored Titles:</h2>           
+            <div id="storedTitles"><p>No Stored Titles Yet</p></div>
+            <input id="clearBtn" type="button" value="Clear Stored Titles">
+        </div>
+    </main>
+
+    <footer>&copy 2023 Joe Olsen</footer> 
+</body>
+</html>
+
