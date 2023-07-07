@@ -6,6 +6,12 @@ body {
     background-color: Antiquewhite;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 96vh;
+}
+
+main {
+    padding-bottom: 2.5rem;
 }
 
 #pageTitle {
@@ -28,7 +34,8 @@ body {
 footer {
     position:absolute;
     bottom: 5px;
-    width:98%;   
+    width: 98%;
+    height: 2.5rem;
 }
 
 #titleGeneration {
