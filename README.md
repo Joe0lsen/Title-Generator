@@ -26,5 +26,5 @@ I did this project because I had searched the web for a random title generator, 
 
 ## Future Work
 
-- Deploy webpage
+- Deploy webpage (off GitHub)
 - Be able to remove specific titles from "Stored Titles"
